@@ -1,6 +1,7 @@
 .inline-block{
     display: inline-block;
-    vertical-align: top; 
+    left: 53%;
+    bottom: 75%;
 }
 
 .logo{
@@ -21,22 +22,22 @@
     float: center;
     text-align: right;
     font-family: "TS Block";
-    font-size: 20px;
+    font-size: 30px;
     display: grid; 
 }
 
 nav{
-    width: 68%;
-    padding: 5%;
+    width: 54%;
+    padding: 0%;
     font-family: "TS Block";
     font-size: 22px;
     color: #2b2b2b;
     position: absolute;
-    right: -300px;  
 }
 
 h1 {
     color: #2b2b2b;
+    
 }
 
 ul{
@@ -47,6 +48,8 @@ ul{
 body{
     background-color: #FAF8F4;
     color: #7C7C79;
+    justify-content: center;
+    overflow-x: hidden;
 }
 
 footer{
@@ -77,6 +80,7 @@ footer > ul {
     float: right;
     text-align: right;
     width: 100%;
+    
 }
 
 .row{
@@ -87,4 +91,20 @@ footer > ul {
 h4 {
     color: #2b2b2b;  
     font-size: 30px;
+    margin: 0%;
+}  
+ 
+p {
+    margin: 0%;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .left, .right {
+        text-align: center;
+    }
+    .row {
+        flex-direction: column;
+        width: 100%;
+    }
 }
